@@ -59,29 +59,31 @@
 								<label for="price-to">до</label>
 								<input type="text" name="price-to" id="price-to" value="15000">
 						</fieldset>
-						<fieldset class="grid">
-							<legend>Сетка:</legend>
-								<input type="radio" name="grid" id="adaptive" value="adaptive" checked>
-								<label for="adaptive">Адаптивная</label><br>
-								<input type="radio" name="grid" id="fixed" value="fixed">
-								<label for="fixed">Фиксированная</label><br>
-								<input type="radio" name="grid" id="rubber" value="rubber">
-								<label for="rubber">Резиновая</label><br>
-						</fieldset>
-						<fieldset class="features">
-							<legend>Особенности:</legend>
-								<input type="checkbox" name="slider" id="slider" value="slider" checked>
-								<label for="slider">Слайдер</label><br>
-								<input type="checkbox" name="benefits" id="benefits" value="benefits">
-								<label for="benefits">Блок приимуществ</label><br>
-								<input type="checkbox" name="news" id="news" value="news" checked>
-								<label for="news">Новости</label><br>
-								<input type="checkbox" name="gallery" id="gallery" value="gallery">
-								<label for="gallery">Галерея</label><br>
-								<input type="checkbox" name="basket" id="basket" value="basket">
-								<label for="basket">Корзина</label>
-						</fieldset>
-						<button class="filter-button" type="button">Показать</button>
+						<form name="filter-form" method="post">
+							<fieldset class="grid">
+								<legend>Сетка:</legend>
+									<input type="radio" name="grid" id="adaptive" value="adaptive" checked>
+									<label for="adaptive">Адаптивная</label><br>
+									<input type="radio" name="grid" id="fixed" value="fixed">
+									<label for="fixed">Фиксированная</label><br>
+									<input type="radio" name="grid" id="rubber" value="rubber">
+									<label for="rubber">Резиновая</label><br>
+							</fieldset>
+							<fieldset class="features">
+								<legend>Особенности:</legend>
+									<input type="checkbox" name="slider" id="slider" value="slider" checked>
+									<label for="slider">Слайдер</label><br>
+									<input type="checkbox" name="benefits" id="benefits" value="benefits">
+									<label for="benefits">Блок приимуществ</label><br>
+									<input type="checkbox" name="news" id="news" value="news" checked>
+									<label for="news">Новости</label><br>
+									<input type="checkbox" name="gallery" id="gallery" value="gallery">
+									<label for="gallery">Галерея</label><br>
+									<input type="checkbox" name="basket" id="basket" value="basket">
+									<label for="basket">Корзина</label>
+							</fieldset>
+							<a class="btn" href="#">Показать</a>
+						</form>
 				</div>
 				<div class="main-catalog">
 					<div class="sort">
