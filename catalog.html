@@ -7,40 +7,41 @@
   <body>
 		<header class="main-header">
 			<div class="container">
-				<div class="main-menu">
-					<a href="index.html"><img class="nav-logo" src="http://placehold.it/150x100" alt="Nerds logo" width="" height=""></a>
-					<nav class="main-nav">
-						<ul>
-							<li>
-								<a href="#">Студия</a>
-							</li>
-							<li>
-								<a href="#">Клиенты</a>
-							</li>
-							<li>
-								<a href="#">Магазин</a>
-							</li>
-							<li>
-								<a href="#">Контакты</a>
-							</li>
-						</ul>
-					</nav>
-					<div class="user-block">
-						<a class="login" href="#">Вход</a>
-					</div>
+				<div class="nav-logo">
+					<a href="index.html"><img src="http://placehold.it/150x100" alt="Nerds logo" width="" height=""></a>
+				</div>
+				<nav class="main-menu">
+					<ul>
+						<li>
+							<a href="#">Студия</a>
+						</li>
+						<li>
+							<a href="#">Клиенты</a>
+						</li>
+						<li>
+							<a href="#">Магазин</a>
+						</li>
+						<li>
+							<a href="#">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="user-block">
+					<a class="login" href="#">Вход</a>
 				</div>
 			</div>
 		</header>
-		<div class="welcome">
+		<div class="intro">
 			<div class="container">
-				<h2>
+				<h1>
 					Магазин готовых шаблонов
-				</h2>
+				</h1>
 			</div>
 		</div>
 		<main class="catalog-content">
 			<div class="container">
 				<div class="catalog-filter">
+					<form name="filter-form" method="post">
 						<fieldset class="cost">
 							<legend>Стоимость:</legend>
 								<div class="range-controls">
@@ -59,97 +60,139 @@
 								<label for="price-to">до</label>
 								<input type="text" name="price-to" id="price-to" value="15000">
 						</fieldset>
-						<form name="filter-form" method="post">
-							<fieldset class="grid">
-								<legend>Сетка:</legend>
-									<input type="radio" name="grid" id="adaptive" value="adaptive" checked>
-									<label for="adaptive">Адаптивная</label><br>
-									<input type="radio" name="grid" id="fixed" value="fixed">
-									<label for="fixed">Фиксированная</label><br>
-									<input type="radio" name="grid" id="rubber" value="rubber">
-									<label for="rubber">Резиновая</label><br>
-							</fieldset>
-							<fieldset class="features">
-								<legend>Особенности:</legend>
-									<input type="checkbox" name="slider" id="slider" value="slider" checked>
-									<label for="slider">Слайдер</label><br>
-									<input type="checkbox" name="benefits" id="benefits" value="benefits">
-									<label for="benefits">Блок приимуществ</label><br>
-									<input type="checkbox" name="news" id="news" value="news" checked>
-									<label for="news">Новости</label><br>
-									<input type="checkbox" name="gallery" id="gallery" value="gallery">
-									<label for="gallery">Галерея</label><br>
-									<input type="checkbox" name="basket" id="basket" value="basket">
-									<label for="basket">Корзина</label>
-							</fieldset>
-							<a class="btn" href="#">Показать</a>
-						</form>
+						<fieldset class="grid">
+							<legend>Сетка:</legend>
+								<input type="radio" name="grid" id="adaptive" value="adaptive" checked>
+								<label for="adaptive">Адаптивная</label><br>
+								<input type="radio" name="grid" id="fixed" value="fixed">
+								<label for="fixed">Фиксированная</label><br>
+								<input type="radio" name="grid" id="rubber" value="rubber">
+								<label for="rubber">Резиновая</label><br>
+						</fieldset>
+						<fieldset class="features">
+							<legend>Особенности:</legend>
+								<input type="checkbox" name="slider" id="slider" value="slider" checked>
+								<label for="slider">Слайдер</label><br>
+								<input type="checkbox" name="benefits" id="benefits" value="benefits">
+								<label for="benefits">Блок приимуществ</label><br>
+								<input type="checkbox" name="news" id="news" value="news" checked>
+								<label for="news">Новости</label><br>
+								<input type="checkbox" name="gallery" id="gallery" value="gallery">
+								<label for="gallery">Галерея</label><br>
+								<input type="checkbox" name="basket" id="basket" value="basket">
+								<label for="basket">Корзина</label>
+						</fieldset>
+						<a class="btn" href="#">Показать</a>
+					</form>
 				</div>
 				<div class="main-catalog">
 					<div class="sort">
 						<b class="sorting">
 							Сортировать:
 						</b>
-						<form class="sort-by" name="sort-by" method="get">
-							<input type="radio" name="sort" id="by-price" value="by-price" checked>
-							<label for="by-price">По цене</label><br>
-							<input type="radio" name="sort" id="by-type" value="by-type">
-							<label for="by-type">По типу</label><br>
-							<input type="radio" name="sort" id="by-name" value="by-name">
-							<label for="by-name">По названию</label>
-						</form>
-						<form class="sort-how" name="sort-how" method="get"> <!-- стрелочки посредством псевдоэлементов -->
-							<input type="radio" name="options" id="max-first" value="max-first" checked>
-							<label for="max-first"></label><br>
-							<input type="radio" name="options" id="min-first" value="min-first">
-							<label for="min-first"></label>
-						</form>
+						<a href="#">По цене</a>
+						<a href="#">По типу</a>
+						<a href="#">По названию</a>
+						<a href="#">down</a>
+						<a href="#">up</a>
 					</div>
 					<div class="items-catalog">
 						<div class="item">
 							<a href="#"><img src="http://placehold.it/150x100" alt="Sedona" width="" height=""></a>
+							<div class="about-item">
+								<h4>
+									<a href="#">Sedona</a>
+								</h4>
+								<p>
+									Информационный сайт для туристов
+								</p>
+								<a class="btn" href="#">9 900 руб.</a>
+							</div>
 						</div>
 						<div class="item">
-							<a href="#"><img src="http://placehold.it/150x100" alt="Pink" width="" height=""></a>
+							<img src="http://placehold.it/150x100" alt="Pink" width="" height="">
+							<div class="about-item">
+								<h4>
+									<a href="#">Pink</a>
+								</h4>
+								<p>
+									Продуктовый лендинг приложения для iOS и Android
+								</p>
+								<a class="btn" href="#">9 900 руб.</a>
+							</div>
 						</div>
 						<div class="item">
-							<a href="#"><img src="http://placehold.it/150x100" alt="Barbershop" width="" height=""></a>
+							<img src="http://placehold.it/150x100" alt="Barbershop" width="" height="">
+							<div class="about-item">
+								<h4>
+									<a href="#">Barbershop</a>
+								</h4>
+								<p>
+									Информационный сайт для туристов
+								</p>
+								<a class="btn" href="#">9 900 руб.</a>
+							</div>
 						</div>
 						<div class="item">
-							<a href="#"><img src="http://placehold.it/150x100" alt="Mishka" width="" height=""></a>
+							<img src="http://placehold.it/150x100" alt="Mishka" width="" height="">
+							<div class="about-item">
+								<h4>
+									<a href="#">Mishka</a>
+								</h4>
+								<p>
+									Информационный сайт для туристов
+								</p>
+								<a class="btn" href="#">9 900 руб.</a>
+							</div>
 						</div>
 						<div class="item">
-							<a href="#"><img src="http://placehold.it/150x100" alt="Учеба" width="" height=""></a>
+							<img src="http://placehold.it/150x100" alt="Учеба" width="" height="">
+							<div class="about-item">
+								<h4>
+									<a href="#">Учеба</a>
+								</h4>
+								<p>
+									Информационный сайт для туристов
+								</p>
+								<a class="btn" href="#">9 900 руб.</a>
+							</div>
 						</div>
 						<div class="item">
-							<a href="#"><img src="http://placehold.it/150x100" alt="Кваст" width="" height=""></a>
+							<img src="http://placehold.it/150x100" alt="Кваст" width="" height="">
+							<div class="about-item">
+								<h4>
+									<a href="#">Кваст</a>
+								</h4>
+								<p>
+									Информационный сайт для туристов
+								</p>
+								<a class="btn" href="#">9 900 руб.</a>
+							</div>
 						</div>
 					</div>
-					<div class="pagination">
-						<ul class="pager">
-							<li class="pager-current">
-								<span>1</span>
-							</li>
-							<li class="pager-item">
-								<a href="#2" title="На страницу номер 2">2</a>
-							</li>
-							<li class="pager-item">
-								<a href="#3" title="На страницу номер 3">3</a>
-							</li>
-							<li class="pager-item">
-								<a class="next" href="#next" title="На следующую страницу">Следующая страница</a>
-							</li>
-						</ul>
-					</div>
+					<ul class="pagination">
+						<li class="pager-current">
+							<span>1</span>
+						</li>
+						<li class="pager-item">
+							<a href="#2" title="На страницу номер 2">2</a>
+						</li>
+						<li class="pager-item">
+							<a href="#3" title="На страницу номер 3">3</a>
+						</li>
+						<li class="pager-item">
+							<a class="next" href="#next" title="На следующую страницу">Следующая страница</a>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</main>
 		<div class="map">
 			<div class="container">
 				<div class="contacts">
-					<h1>
+					<h2>
 						Nerds design studio
-					</h1>
+					</h2>
 					<p class="adress">
 						191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br><br>
 						тел. +7 (812) 275-75-75
