@@ -22,7 +22,7 @@ body {
 	font-family: "Roboto", "Arial", sans-serif;
 	font-size: 16px;
 	line-height: 24px;
-	color: #000000;
+	color: #444444;
 	font-weight: 400;
 }
 
@@ -40,6 +40,16 @@ h2 {
 	line-height: 30px;
 	color: #000000;
 	font-weight: 600;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-family: "Roboto", "Arial", sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+	font-weight: 600;
+	text-transform: uppercase;
 }
 
 .main-header {
@@ -192,7 +202,7 @@ h2 {
 	padding: 18px 55px;
 	
 	background: #fb565a;
-	border-radius: 5px;
+	border-radius: 3px;
 	
 	font-size: 16px;
 	line-height: 18px;
@@ -239,9 +249,70 @@ h2 {
 	margin-right: 0;
 }
 
+.advantages .advantage p {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.advantage-btn {
+	display: inline-block;
+	
+	padding: 15px 25px;
+	
+	border-radius: 3px;
+	
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.web-btn {
+	background: #fb565a;
+}
+
+.app-btn {
+	background: #00ca74;
+}
+
+.ppt-btn {
+	background: #efc84a;
+}
+
+.web-btn:hover {
+	background: #e74246;
+}
+
+.web-btn:active {
+	background: #d7373b;
+	
+	color: #e37376;
+}
+
+.app-btn:hover {
+	background: #00bc6c;
+}
+
+.app-btn:active {
+	background: #00aa62;
+	
+	color: #4dc491;
+}
+
+.ppt-btn:hover {
+	background: #eab534;
+}
+
+.ppt-btn:active {
+	background: #e5a722;
+	
+	color: #edc265;
+}
+
 .about-us .container {
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding-top: 40px;
+	padding-bottom: 70px;
 	
 	border-top: 2px solid #eeeeee;
 	border-bottom: 2px solid #eeeeee;
@@ -251,6 +322,19 @@ h2 {
 	float: left;
 	
 	width: 655px;
+	padding-top: 40px;
+}
+
+.about-studio p {
+	padding-top: 13px;
+	padding-bottom: 29px;
+}
+
+.studios-slogan {
+	font-size: 45px;
+	line-height: 45px;
+	font-weight: 500;
+	color: #000000;
 }
 
 .nerds-statistic {
@@ -259,23 +343,47 @@ h2 {
 	width: 365px;
 }
 
-.statistics-area ul {
-	list-style: none;
+.about-us-logo {
+	margin-bottom: 35px;
+}
+
+.statitics-title {
+	margin-bottom: 55px;
 	
-	margin-top: 0;
-	margin-bottom: 0;
-	padding-left: 0;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.general-statistic {
+	padding-top: 1px;
+}
+
+.statistics-area {
+	margin: 0;
+	padding: 0;
+	
+	list-style: none;
 }
 
 .statistics-area li {
 	display: inline-block;
 	
+	margin-right: 20px;
+	
 	width: 105px;
 }
 
-.statistics-area li:first-child {
-	margin-left: 0;
-	padding-left: 0;
+.statistics-area li:last-child {
+	margin-right: 0;
+}
+
+.general-statistic .index {
+	font-size: 45px;
+	line-height: 10px;
+	color: #000000;
 }
 
 .partners .container {
@@ -287,6 +395,18 @@ h2 {
 
 .partner {
 	float: left;
+}
+
+.partner img {
+	opacity: 0.2;
+}
+
+.partner img:hover {
+	opacity: 1;
+}
+
+.partner img:active {
+	opacity: 0.1;
 }
 
 .htmlacademy {
@@ -314,20 +434,116 @@ h2 {
 }
 
 .map .container {
+	margin-top: 65px;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
 .address-wrapper {
-	width: 350px;
+	width: 320px;
 }	
 
 .address-wrapper .contacts {
-	width: 250px;
-	
-	padding: 30px 50px 50px 50px;
+padding: 30px 50px 50px 50px;
 	
 	background: #ffffff;
+}
+
+.contacts h2 {
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.contacts-adress {
+	display: block;
+}
+
+.contacts-phone {
+	display: block;
+	
+	padding: 10px 0 20px;
+}
+
+.btn-adress {
+	padding: 18px 44px;
 }	
 
+.main-footer .container {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
 
+.main-footer .socials-icons {
+	float: left;
+	
+	width: 270px;
+}
+
+.main-footer .social-description {
+	float: right;
+	
+	width: 760px;
+}
+
+.social-description p {
+	padding: 10px 0;
+	margin: 0;
+	
+	font-size: 36px;
+	line-height: 36px;
+	color: #000000;
+}
+
+.social-description .friends {
+	display: block;
+	
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.social {
+	position:relative;
+	
+	display: inline-block;
+	vertical-align: top;
+	
+	width: 80px;
+	height: 80px;
+	
+	background: #e1e1e1;
+	border-radius: 50%;
+	
+	text-align: center;
+}
+
+.vk {
+	position: absolute;
+	left: 27px;
+	top: 32.5px;
+}
+
+.fb {
+	position: absolute;
+	left: 34px;
+	top: 29px;
+}
+
+.instagram {
+	position: absolute;
+	left: 29.5px;
+	top: 29.5px;
+}
+
+.social:hover {
+	background: #e74246;
+}
+
+.social:active {
+	background: #d7373b;
+}
+
+.vk:active,
+.fb:active,
+.instagram:active {
+	opacity: 0.3;
+}
