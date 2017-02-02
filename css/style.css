@@ -56,6 +56,8 @@ h3 {
 }
 
 .main-header {
+	padding: 50px 0 16px;
+	
 	background: #eeeeee;
 }
 
@@ -229,6 +231,10 @@ h3 {
 	font-weight: 500;
 }
 
+.advantages {
+	padding: 80px 0;
+}
+
 .advantages .advantage {
 	float: left;
 	
@@ -305,33 +311,39 @@ h3 {
 	color: #edc265;
 }
 
+.about-us {
+	padding: 0 0 80px 0;
+}
+
 .about-studio {
 	float: left;
 	
 	width: 655px;
 	margin: 0;
-	margin-top: 40px;
 	padding: 0;
+}
+
+.about-studio .studios-slogan {
+	margin: 0;
+	padding: 0;
+	
+	font-size: 45px;
+	line-height: 53px;
+	font-weight: 500;
+	color: #000000;
 }
 
 .about-studio .principle {
 	margin: 0;
 	padding: 0;
-	margin-top: 30px;
-	margin-bottom: 40px;
 }
 
-.studios-slogan {
+.about-studio .development {
 	margin: 0;
 	padding: 0;
-	
-	font-size: 45px;
-	line-height: 45px;
-	font-weight: 500;
-	color: #000000;
 }
 
-.about-studio ul {
+.about-studio .development-item {
 	list-style: none;
 	
 	margin: 0;
@@ -365,21 +377,20 @@ h3 {
 }
 
 .about-us-logo {
-	margin-bottom: 40px;
+	width: 360px;
+	height: 208px;
 }
 
 .statitics-title {
-	margin-bottom: 55px;
+	padding: 0;
+	margin: 0;
+	padding: 35px 0 30px;
 	
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: 600;
 	text-transform: uppercase;
 	text-align: center;
-}
-
-.general-statistic {
-	padding-top: 1px;
 }
 
 .statistics-area {
@@ -403,8 +414,17 @@ h3 {
 
 .general-statistic .index {
 	font-size: 45px;
-	line-height: 10px;
+	line-height: 65px;
 	color: #000000;
+}
+
+.index-descr {
+	padding: 0;
+	padding: 10px 0 0 0;
+	margin: 0;
+	
+	font-size: 16px;
+	line-height: 18px;
 }
 
 .partner {
