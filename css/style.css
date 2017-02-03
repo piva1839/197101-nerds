@@ -232,7 +232,23 @@ h3 {
 }
 
 .advantages {
-	padding: 80px 0;
+	position: relative;
+	
+	padding: 80px 0 80px;
+}
+
+.advantages::before {
+	content: "";
+	
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	
+	width: 1160px;
+	height: 3px;
+	margin-left: -580px;
+	
+	background: #eeeeee;
 }
 
 .advantages .advantage {
@@ -312,15 +328,14 @@ h3 {
 }
 
 .about-us {
-	padding: 0 0 80px 0;
+	padding: 40px 0 80px 0;
 }
 
 .about-studio {
 	float: left;
 	
 	width: 655px;
-	margin: 0;
-	padding: 0;
+	margin-top: 30px;
 }
 
 .about-studio .studios-slogan {
@@ -328,7 +343,7 @@ h3 {
 	padding: 0;
 	
 	font-size: 45px;
-	line-height: 53px;
+	line-height: 45px;
 	font-weight: 500;
 	color: #000000;
 }
@@ -336,6 +351,7 @@ h3 {
 .about-studio .principle {
 	margin: 0;
 	padding: 0;
+	padding: 27px 0;
 }
 
 .about-studio .development {
@@ -427,8 +443,28 @@ h3 {
 	line-height: 18px;
 }
 
+.partners {
+	padding-bottom: 80px;
+}
+
 .partner {
 	float: left;
+}
+
+.htmlacademy {
+	padding: 60px 0 50px;
+}
+
+.borodinski {
+	padding: 45px 0;
+}
+
+.pink {
+	padding: 60px 0 65px;
+}
+
+.mishka {
+	padding: 50px 0 45px;
 }
 
 .partner img {
@@ -463,6 +499,8 @@ h3 {
 }
 
 .map {
+	padding: 50px 0 50px;
+	
 	background: url("../img/map.jpg") no-repeat;
 	background-position: 50% 50%;
 }
@@ -496,6 +534,10 @@ h3 {
 	padding: 18px 44px;
 }
 
+.main-footer .socials {
+	padding: 70px 0;
+}
+
 .main-footer .socials-icons {
 	float: left;
 	
@@ -509,8 +551,9 @@ h3 {
 }
 
 .social-description .invitation {
-	padding: 10px 0;
+	padding: 0;
 	margin: 0;
+	margin-top: 10px;
 	
 	font-size: 36px;
 	line-height: 36px;
