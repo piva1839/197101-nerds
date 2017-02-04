@@ -176,7 +176,7 @@ h3 {
 	height: 420px;
 	
 	background: url("../img/slide1.png") no-repeat;
-	background-position: 94% 50%;
+	background-position: 93% 52%;
 }
 
 .slider-controls {
@@ -198,7 +198,7 @@ h3 {
 .btn {
 	display: inline-block;
 	
-	padding: 15px 55px;
+	padding: 16px 55px;
 	
 	background: #fb565a;
 	border-radius: 3px;
