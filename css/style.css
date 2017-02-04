@@ -112,7 +112,7 @@ h3 {
 	display: inline-block;
 	vertical-align: top;
 
-	padding-top: 25px;
+	padding: 25px 0 8px;
 	margin-left: 42px;
 	
 	font-size: 16px;
