@@ -917,8 +917,7 @@ h3 {
 
 .pagination .pager-current {
 	background: #ffffff;
-	outline: 3px solid #dbdbdb;
-	outline-offset: -3px;
+	box-shadow: inset 0 0 0 3px #dbdbdb;
 	cursor: auto;
 }
 
