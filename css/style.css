@@ -234,23 +234,12 @@ h3 {
 }
 
 .advantages {
-	position: relative;
-	
-	padding: 80px 0 80px;
+	padding: 80px 0 0 0;
 }
 
-.advantages::before {
-	content: "";
-	
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	
-	width: 1160px;
-	height: 3px;
-	margin-left: -580px;
-	
-	background: #eeeeee;
+.advantage-list {
+	border-bottom: 3px solid #eeeeee;
+	padding-bottom: 80px;
 }
 
 .advantages .advantage {
@@ -446,57 +435,21 @@ h3 {
 }
 
 .partners {
-	position: relative;
-	
 	padding-bottom: 80px;
 }
 
-.partners::before {
-	content: "";
+.partner-list {
+	margin: 0;
+	padding: 0;
+	padding: 45px 0 48px;
 	
-	position: absolute;
-	top: 0;
-	left: 50%;
-	
-	width: 1160px;
-	height: 3px;
-	margin-left: -580px;
-	
-	background: #eeeeee;
-}
-
-.partners::after {
-	content: "";
-	
-	position: absolute;
-	bottom: 80px;
-	left: 50%;
-	
-	width: 1160px;
-	height: 3px;
-	margin-left: -580px;
-	
-	background: #eeeeee;
+	border-top: 3px solid #eeeeee;
+	border-bottom: 3px solid #eeeeee;
 }
 
 .partner {
-	float: left;
-}
-
-.htmlacademy {
-	padding: 60px 0 50px;
-}
-
-.borodinski {
-	padding: 45px 0;
-}
-
-.pink {
-	padding: 60px 0 65px;
-}
-
-.mishka {
-	padding: 50px 0 45px;
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .partner img {
@@ -513,21 +466,22 @@ h3 {
 
 .htmlacademy {
 	width: 199px;
-	margin: 0 50px;
+	margin: 0 49px 0 33px;
 }
+
 .borodinski {
 	width: 209px;
-	margin: 0 40px;
+	margin: 0 45px 0 45px;
 }
 
 .pink {
 	width: 185px;
-	margin: 0 50px;
+	margin: 0 55px 0 55px;
 }
 
 .mishka {
 	width: 173px;
-	margin: 0 55px;
+	margin: 0 40px 0 60px;
 }
 
 .map {
