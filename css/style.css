@@ -94,9 +94,7 @@ h3 {
 }
 
 .main-menu a:active {
-	color: #000000;
-	
-	opacity: 0.3;
+	color: #a6a6a6;
 }
 
 .main-menu .navigation {
@@ -783,6 +781,7 @@ h3 {
 	height: 9px;
 	
 	background: url("../img/sort-down.png") no-repeat;
+	opacity: 0.2;
 }
 
 .sort-up::before {
@@ -795,9 +794,33 @@ h3 {
 	height: 9px;
 	
 	background: url("../img/sort-up.png") no-repeat;
+	opacity: 0.2;
+}
+
+.sort-down:hover::before {
+	opacity: 0.4;
+}
+
+.sort-up:hover::before {
+	opacity: 0.4;
+}
+
+.sort-down:active::before {
+	opacity: 1;
+}
+
+.sort-up:active::before {
+	opacity: 1;
+}
+
+/* Посредством JS переприсваиваем сласс sorted для sort-down и sort-up */
+
+.sorted::before {
+	opacity: 1;
 }
 
 .items-catalog .item {
+	position: relative;
 	float: left;
 	
 	width: 360px;
@@ -811,7 +834,52 @@ h3 {
 }
 
 .items-catalog .about-item {
-	display: none;
+	position: absolute;
+	bottom: 0;
+	box-sizing: border-box;
+	
+	width: 360px;
+	min-height: 230px;
+	padding: 30px 80px 40px;
+	
+	background: #eeeeee;
+	
+	text-align: center;
+	
+/*	opacity: 0; */
+}
+
+/* временно поиграться
+
+.items-catalog .about-item:hover {
+	opacity: 1;
+}
+
+*/
+
+.about-item h4 {
+	margin: 0;
+	padding: 0;
+}
+
+.about-item .items-title {
+	font-size: 18px;
+	line-height: 30px;
+	text-decoration: none;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.about-item .items-description {
+	margin: 0;
+	padding: 0;
+	padding: 20px 0 30px;	
+	
+	font-family: "Roboto", "Arial", sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: 400;
+	color: #666666;
 }
 
 .main-catalog .sort {
