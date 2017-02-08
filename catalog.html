@@ -235,8 +235,10 @@
 				</div>
 			</div>
 		</footer>
+		<div class="popup-overlay">
+		</div>
 		<div class="modal-contact-block">
-			<form name="contact-form" method="post">
+			<form name="contact-form" id="contact-form" method="post">
 				<fieldset class="contact-us">
 					<legend class="contact-form-title">
 						Напишите нам
@@ -252,8 +254,8 @@
 							</div>
 						</div>
 						<div class="user-message">
-							<label for="message">Текст письма:</label>
-							<input class="message-area" type="text" name="message" id="message" value="" placeholder="В свободной форме">
+							<label for="message-area">Текст письма:</label>
+							<textarea class="message-area" id="message-area" form="contact-form" name="message-area" placeholder="В свободной форме"></textarea>
 						</div>
 						<button class="btn" type="submite">
 							Отправить
