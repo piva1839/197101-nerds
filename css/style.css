@@ -18,6 +18,17 @@ html {
 	padding: 0 10px;
 }
 
+.btn {
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+input {
+	outline: none;
+	cursor: pointer;
+}
+
 body {
 	min-width: 1180px;
 	
@@ -964,3 +975,132 @@ h3 {
 	font-weight: 500;
 	text-decoration: none;	
 }
+
+.modal-contact-block {
+	box-sizing: border-box;
+	position: fixed;
+	z-index: 10; 
+	bottom: 177px;
+	left: 50%;
+	
+	width: 960px;
+	height: 589px;
+	margin-left: -480px;
+	padding: 65px 100px 85px;
+	
+	background: #ffffff;
+	box-shadow: 0 20px 40px rgba(0, 1, 1, 0.75);
+	
+	color: #000000;
+}
+
+.modal-contact-block .contact-us {
+	margin: 0;
+	padding: 0;
+	
+	border: none;
+}
+
+.modal-contact-block .user-contact-info {
+	margin-bottom: 35px;
+}
+
+.modal-contact-block .user-contact-name {
+	float: left;
+	
+	width: 360px;
+}
+
+.modal-contact-block .user-contact-email {
+	float: right;
+	
+	width: 360px;
+}
+
+.modal-contact-block .contact-form-title {
+	margin-bottom: 35px;
+	
+	font-family: "Roboto", "Arial", sans-serif;
+	font-size: 45px;
+	line-height: 45px;
+	color: #000000;
+	font-weight: 500;
+}
+
+.modal-contact-block label {
+	display: block;
+	
+	margin-bottom: 9px;
+	
+	font-family: "Roboto", "Arial", sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	color: #000000;
+	font-weight: 500;
+}
+
+.modal-contact-block input {
+	padding: 15px;
+	
+	width: 326px;
+	
+	font-family: "Roboto", "Arial", sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	color: #444444;
+	font-weight: 400;
+}
+
+.modal-contact-block .user-contact-info {
+	margin-bottom: 35px;
+}
+
+.modal-contact-block .user-message {
+	margin-bottom: 47px;
+}
+
+.close-modal-block {
+	position: absolute;
+	top: 78px;
+	right: 90px;
+	
+	width: 21px;
+	height: 21px;
+	
+	background: none;
+	border: 0;
+	
+	font-size: 0;
+	
+	outline: 0;
+	cursor: pointer;
+}
+
+.close-modal-block::before {
+	content: "";
+	position: absolute;
+	top: 9px;
+	right: 0; 
+	
+	width: 20px;
+	height: 3px;
+	
+	background: #fecccd;
+	
+	transform: rotate(45deg);
+}
+
+.close-modal-block::after {
+	content: "";
+	position: absolute;
+	top: 9px;
+	right: 0; 
+	
+	width: 20px;
+	height: 3px;
+	
+	background: #fecccd;
+	
+	transform: rotate(-45deg);
+}
+
