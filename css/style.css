@@ -224,18 +224,23 @@ h3 {
 	display: none;
 }
 
-.index-slide:nth-child(3) {
+.index-slide:nth-child(1) {
 	display: block;
 }
 
 .index-slide-description {
-	width: 525px;
+	width: 520px;
 }
 
 .index-slider-about {
 	padding-bottom: 22px;
+	padding-right: 85px;
 	
 	color: #283136;
+}
+
+.about-block-width {
+	padding-right: 150px;
 }
 
 .btn {
