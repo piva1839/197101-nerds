@@ -798,7 +798,8 @@ h3 {
 	text-transform: uppercase;
 }
 
-.catalog-filter input[type=radio] {
+.catalog-filter input[type=radio],
+.catalog-filter input[type=checkbox] {
 	display: none;
 }
 
@@ -814,7 +815,7 @@ h3 {
 	display: inline-block;
 }
 
-.grid label:before {
+.grid label::before {
 	content: "";
 	position: absolute;
 	left: 4px;
@@ -832,6 +833,56 @@ h3 {
 
 .grid input:checked + label::before {
 	background: #b8b8b8;
+}
+
+.grid label:hover::before {
+	box-shadow: 0 0 0 4px #4d4d4d;
+}
+
+.grid input:checked + label:hover::before {
+	background: #4d4d4d;
+}
+
+.features label::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	
+	width: 19px;
+	height: 19px;
+	
+	border: 2px solid #b8b8b8;
+	border-radius: 3px;
+	background: #ffffff;
+	cursor: pointer;
+}
+
+.features label::after {
+	content: "";
+	position: absolute;
+	left: 5px;
+	top: 1px;
+	
+	display: none;
+	
+	width: 23px;
+	height: 19px;
+
+	background: url("../img/checkbox.png") no-repeat -60% 40%;
+	cursor: pointer;
+}
+
+.features input:checked + label::after {
+	display: block;
+}
+
+.features label:hover::before {
+	border-color: #4d4d4d;
+}
+
+.features input:checked + label:hover::after {
+	background: url("../img/checkbox-hover.png") no-repeat -60% 40%;
 }
 
 .main-catalog {
