@@ -740,25 +740,6 @@ h3 {
 	text-align: center;
 }
 
-.legend {
-	font-size: 18px;
-	line-height: 18px;
-	font-weight: 600;
-}
-
-.cost .legend {
-	margin-bottom: 50px;
-	
-	text-transform: uppercase;
-}
-
-.grid .legend,
-.features .legend {
-	padding-top: 50px;
-	
-	text-transform: uppercase;
-}
-
 .filter-btn {
 	display: block;
 	
@@ -792,7 +773,65 @@ h3 {
 .features,
 .cost,
 .grid {
+	margin: 0;
+	padding: 0;
+	
 	border: none;
+}
+
+.legend {
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: 600;
+}
+
+.cost .legend {
+	margin-bottom: 50px;
+	
+	text-transform: uppercase;
+}
+
+.grid .legend,
+.features .legend {
+	padding: 50px 0 17px;
+	
+	text-transform: uppercase;
+}
+
+.catalog-filter input[type=radio] {
+	display: none;
+}
+
+.catalog-filter label {
+	position: relative;
+
+	padding-left: 35px;
+	margin-bottom: 15px;
+}
+
+.grid label,
+.features label {
+	display: inline-block;
+}
+
+.grid label:before {
+	content: "";
+	position: absolute;
+	left: 4px;
+	top: 4px;
+	
+	width: 7px;
+	height: 7px;
+	
+	border: 4px solid #ffffff;
+	border-radius: 50%;
+	background: #ffffff;
+	box-shadow: 0 0 0 4px #b8b8b8;
+	cursor: pointer;
+}
+
+.grid input:checked + label::before {
+	background: #b8b8b8;
 }
 
 .main-catalog {
