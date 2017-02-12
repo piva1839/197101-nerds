@@ -793,40 +793,83 @@ h3 {
 
 .range-controls {
 	position: relative;
+	box-sizing: border-box;
 	
 	height: 80px;
-	padding: 30px 20px;
+	padding: 0 20px;
 	
 	background: #eeeeee;
 	border-radius: 5px;
 	overflow: hidden;
 }
 
+.range-controls .scale {
+	height: 2px;
+	margin-top: 39px;
+	
+	background: #d7dcde;
+}
+
+.range-controls .bar {
+	height: 2px;
+	
+	background: #00ca74;
+}
+
+.range-controls .toggle {
+	width: 4px;
+	height: 5px;
+	
+	background: #ababab;
+	border: 8px solid #ffffff;
+	border-radius: 50%;
+	box-shadow: 0 2px 2px 0 #cccdcd;
+	
+	cursor: pointer;
+}
+
+.min-toggle {
+	position: absolute;
+	top: 50%;
+	margin-top: -10px;
+	margin-left: -5px;
+}
+
+.max-toggle {
+	position: absolute;
+	top: 50%;
+	margin-top: -10px;
+	margin-left: 142px;
+}
+
 .price-controls {
 	margin-top: 14px;
 }
 
-.price-controls label {
-	margin: 0;
-	padding: 0;
-}
-
 .min-price,
 .max-price {
-	width: 80px;
+	width: 60px;
 	height: 38px;
+	padding: 0 10px;
 	
 	background: #eeeeee;
+	border: none;
 	border-radius: 3px;
+	
+	text-align: center;
 }
 
 .min-price {
-	margin: 0 33px 0 11px;
+	margin: 0 27px 0 10px;
+}
+
+.max-price {
+	margin: 0 0 0 10px;
 }
 
 .grid .legend,
 .features .legend {
-	padding: 50px 0 17px;
+	padding: 60px 0 17px;
 	
 	text-transform: uppercase;
 }
