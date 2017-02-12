@@ -786,9 +786,42 @@ h3 {
 }
 
 .cost .legend {
-	margin-bottom: 50px;
+	margin-bottom: 60px;
 	
 	text-transform: uppercase;
+}
+
+.range-controls {
+	position: relative;
+	
+	height: 80px;
+	padding: 30px 20px;
+	
+	background: #eeeeee;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.price-controls {
+	margin-top: 14px;
+}
+
+.price-controls label {
+	margin: 0;
+	padding: 0;
+}
+
+.min-price,
+.max-price {
+	width: 80px;
+	height: 38px;
+	
+	background: #eeeeee;
+	border-radius: 3px;
+}
+
+.min-price {
+	margin: 0 33px 0 11px;
 }
 
 .grid .legend,

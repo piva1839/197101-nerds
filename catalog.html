@@ -58,16 +58,18 @@
 									<div class="toggle max-toggle">
 									</div>
 								</div>
-								<label for="price-from">от</label>
-								<input type="text" name="price-from" id="price-from" value="0">
-								<label for="price-to">до</label>
-								<input type="text" name="price-to" id="price-to" value="15000">
+								<div class="price-controls">
+									от
+									<input class="min-price" type="text" name="price-from" id="price-from" value="0">
+									до
+									<input class="max-price" type="text" name="price-to" id="price-to" value="15000">
+								</div>
 						</fieldset>
 						<fieldset class="grid">
 							<legend class="legend">Сетка:</legend>
 								<input type="radio" name="grid" id="adaptive" value="adaptive" checked>
 								<label for="adaptive">Адаптивная</label><br>
-								<input type="radio" name="grid" id="fixed" value="fixed" disabled>
+								<input type="radio" name="grid" id="fixed" value="fixed">
 								<label for="fixed">Фиксированная</label><br>
 								<input type="radio" name="grid" id="rubber" value="rubber">
 								<label for="rubber">Резиновая</label><br>
