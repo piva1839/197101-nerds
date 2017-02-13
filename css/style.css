@@ -627,7 +627,7 @@ sup {
 }
 
 .map {
-	padding: 50px 0 50px;
+	padding: 54px 0;
 	
 	background: url("../img/map.jpg") no-repeat;
 	background-position: 50% 50%;
@@ -635,32 +635,48 @@ sup {
 
 .address-wrapper {
 	width: 320px;
+	min-height: 308px;
 }	
 
 .address-wrapper .contacts {
-	padding: 30px 50px 50px 50px;
+	margin: 0;
+	padding: 0;
+	padding: 47px 50px 47px;
 	
 	background: #ffffff;
 }
 
 .contacts h2 {
+	margin: 0;
+	padding: 0;
+	
 	font-family: "Roboto", "Arial", sans-serif;
 	font-size: 18px;
 	line-height: 30px;
+	font-weight: 600;
 }
 
 .contacts-adress {
 	display: block;
+	
+	margin: 0;
+	margin: 23px 0 15px;
+	padding: 0;
+	
+	font-size: 16px;
+	line-height: 18px;
 }
 
 .contacts-phone {
 	display: block;
 	
-	padding: 10px 0 20px;
+	margin: 0;
+	padding: 0;
 }
 
 .btn-adress {
-	padding: 18px 44px;
+	margin-top: 34px;
+	padding: 16px 44px;
 }
 
 .main-footer .socials {
