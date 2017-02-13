@@ -202,7 +202,7 @@ h3 {
 	width: 96px;
 	height: 18px;
 	
-	text-align: center;
+
 }
 
 .index-slider-content label {
@@ -239,7 +239,7 @@ h3 {
 }
 
 .index-slide:nth-child(1) {
-	background: url("../img/slide1.png") no-repeat 94% 100%;
+	background: url("../img/slide1.png") no-repeat 93.3% 100%;
 }
 
 .index-slide:nth-child(2) {
@@ -278,7 +278,7 @@ h3 {
 .index-slider-slogan {
 	display: block;
 	
-	padding: 65px 0 11px;
+	padding: 63px 0 11px;
 	
 	font-family: "Roboto", "Arial", sans-serif;
 	font-size: 55px;
@@ -288,7 +288,7 @@ h3 {
 }
 
 .index-slider-about {
-	padding-bottom: 20px;
+	padding-bottom: 22px;
 	padding-right: 85px;
 	
 	color: #283136;
@@ -423,14 +423,14 @@ h3 {
 }
 
 .about-us {
-	padding: 44px 0 64px 0;
+	padding: 39px 0 73px 0;
 }
 
 .about-studio {
 	float: left;
 	
 	width: 655px;
-	margin-top: 30px;
+	margin-top: 35px;
 }
 
 .about-studio .studios-slogan {
@@ -447,7 +447,7 @@ h3 {
 .about-studio .principle {
 	margin: 0;
 	padding: 0;
-	padding: 33px 0 37px;
+	padding: 32px 0 39px;
 }
 
 .about-studio .development {
@@ -465,7 +465,7 @@ h3 {
 .about-studio li {
 	position: relative;
 	
-	margin-top: 26px;
+	margin-top: 24px;
 	padding-left: 36px;
 }
 
@@ -490,12 +490,14 @@ h3 {
 .about-us-logo {
 	width: 360px;
 	height: 208px;
+	
+	margin-left: 4px;
 }
 
 .statitics-title {
 	padding: 0;
 	margin: 0;
-	padding: 35px 0 30px;
+	padding: 36px 0 31px 6px;
 	
 	font-family: "Roboto", "Arial", sans-serif;
 	font-size: 16px;
@@ -507,6 +509,7 @@ h3 {
 
 .statistics-area {
 	margin: 0;
+	margin-left: 5px;
 	padding: 0;
 	
 	list-style: none;
@@ -515,7 +518,7 @@ h3 {
 .statistics-area li {
 	display: inline-block;
 	
-	margin-right: 20px;
+	margin-right: 10px;
 	
 	width: 105px;
 }
@@ -527,12 +530,13 @@ h3 {
 .general-statistic .index {
 	font-size: 45px;
 	line-height: 65px;
+	font-weight: 800;
 	color: #000000;
 }
 
 .index-descr {
 	padding: 0;
-	padding: 10px 0 0 0;
+	padding: 9px 0 0 0;
 	margin: 0;
 	
 	font-family: "Roboto", "Arial", sans-serif;
@@ -540,17 +544,29 @@ h3 {
 	line-height: 18px;
 }
 
+sup {
+	position: relative;
+	top: 10px;
+	vertical-align: top;
+	font-size: 27px;
+	line-height: 1;
+}
+
 .partners {
 	padding-bottom: 80px;
 }
 
 .partner-list {
+	box-sizing: border-box;
+	height: 186px;
 	margin: 0;
 	padding: 0;
-	padding: 55px 0 33px;
+	padding-top: 46px;
 	
 	border-top: 3px solid #eeeeee;
 	border-bottom: 3px solid #eeeeee;
+	
+	font-size: 0;
 }
 
 .partner {
@@ -567,7 +583,7 @@ h3 {
 	right: 0;
 	bottom: 50%; 
 
-	margin-bottom: -26px;
+	margin-bottom: -17px;
 	width: 2px; 
 	height: 52px; 
 
@@ -592,22 +608,22 @@ h3 {
 
 .htmlacademy {
 	width: 199px;
-	margin: 0 49px 0 33px;
+	margin: 7px 51px 0 31px;
 }
 
 .borodinski {
 	width: 209px;
-	margin: 0 45px 0 45px;
+	margin: 0 46px 0 45px;
 }
 
 .pink {
 	width: 185px;
-	margin: 0 55px 0 55px;
+	margin: 0 58px 0 57px;
 }
 
 .mishka {
 	width: 173px;
-	margin: 0 40px 0 60px;
+	margin: 4px 40px 0 63px;
 }
 
 .map {
