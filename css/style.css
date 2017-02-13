@@ -195,7 +195,7 @@ h3 {
 .index-slider-content .slider-controls {
 	position: absolute;
 	left: 50%;
-	bottom: 90px;
+	bottom: 96px;
 	z-index: 1000;
 
 	margin-left: -44px;
@@ -210,7 +210,9 @@ h3 {
 	width: 18px;
 	height: 18px;
 	
-	margin-right: 17px;
+	margin: 0;
+	margin-right: 15px;
+	padding: 0;
 	vertical-align: top;
 	
 	background: #ffffff;
