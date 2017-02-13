@@ -349,8 +349,8 @@ h3 {
 }
 
 .advantage-name {
-	margin-top: 18px;
-	margin-bottom: 15px;
+	margin-top: 19px;
+	margin-bottom: 16px;
 }
 
 .advantages .result{
@@ -423,7 +423,7 @@ h3 {
 }
 
 .about-us {
-	padding: 39px 0 73px 0;
+	padding: 37px 0 73px 0;
 }
 
 .about-studio {
@@ -686,7 +686,7 @@ sup {
 .main-footer .socials-icons {
 	float: left;
 	
-	width: 272px;
+	width: 270px;
 }
 
 .main-footer .social-description {
@@ -698,7 +698,7 @@ sup {
 .social-description .invitation {
 	padding: 0;
 	margin: 0;
-	margin-top: 10px;
+	margin-top: 3px;
 	
 	font-family: "Roboto", "Arial", sans-serif;
 	font-size: 36px;
@@ -727,7 +727,7 @@ sup {
 	
 	width: 80px;
 	height: 80px;
-	margin-right: 12px;
+	margin-right: 7px;
 	
 	background: #e1e1e1;
 	border-radius: 50%;
