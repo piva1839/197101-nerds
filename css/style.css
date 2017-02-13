@@ -166,7 +166,7 @@ h3 {
 	content: "";
 	
 	position: absolute;	
-	bottom: 5px;
+	bottom: 4px;
 	left: 0;
 	right: 0;
 	
@@ -778,8 +778,8 @@ sup {
 }
 
 .intro {
-	padding-top: 15px;
-	padding-bottom: 60px;
+	padding-top: 26px;
+	padding-bottom: 70px;
 	
 	background: #eeeeee;
 	
@@ -812,7 +812,7 @@ sup {
 .catalog-filter {
 	float: left;
 	
-	width: 255px;
+	width: 260px;
 	margin-right: 140px;
 }
 
@@ -825,6 +825,10 @@ sup {
 	border: none;
 }
 
+.cost {
+	margin-top: 2px;
+}
+
 .legend {
 	font-size: 18px;
 	line-height: 18px;
@@ -832,7 +836,7 @@ sup {
 }
 
 .cost .legend {
-	margin-bottom: 60px;
+	margin-bottom: 54px;
 	
 	text-transform: uppercase;
 }
@@ -906,11 +910,11 @@ sup {
 }
 
 .min-price {
-	margin: 0 27px 0 10px;
+	margin: 0 27px 0 12px;
 }
 
 .max-price {
-	margin: 0 0 0 10px;
+	margin: 0 0 0 13px;
 }
 
 .grid .legend,
@@ -1013,8 +1017,9 @@ sup {
 	width: 760px;
 }
 
-.sort {
+.main-catalog .sort {
 	padding-top: 60px;
+	padding-bottom: 45px;
 }
 
 .sorting-name {
@@ -1214,10 +1219,6 @@ sup {
 	line-height: 18px;
 	font-weight: 400;
 	color: #666666;
-}
-
-.main-catalog .sort {
-	padding-bottom: 50px;
 }
 
 .pagination {
