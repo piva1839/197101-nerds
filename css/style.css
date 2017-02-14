@@ -1193,7 +1193,7 @@ sup {
 	
 	width: 360px;
 	min-height: 230px;
-	padding: 26px 80px 0 80px;
+	padding: 26px 65px 43px 65px;
 	
 	background: #eeeeee;
 	
@@ -1237,15 +1237,18 @@ sup {
 .pagination {
 	margin: 0;
 	padding: 0;
-	padding: 20px 0 60px;
+	padding: 31px 0 61px;
 }
 
 .pagination li {
 	display: inline-block;
 	vertical-align: top;
 	
-	min-width: 62px;
-	padding: 19px 0;
+	min-width: 50px;
+	margin: 0;
+	margin-right: 7px;
+	padding: 0;
+	padding: 13px 0;
 	
 	background: #eeeeee;
 	border-radius: 3px;
@@ -1284,7 +1287,8 @@ sup {
 	line-height: 18px;
 	color: #000000;
 	font-weight: 500;
-	text-decoration: none;	
+	text-decoration: none;
+	text-transform: uppercase;
 }
 
 .popup-overlay {
