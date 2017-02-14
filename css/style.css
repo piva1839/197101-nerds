@@ -1269,11 +1269,6 @@ sup {
 .pagination .pager-current {
 	background: #ffffff;
 	box-shadow: inset 0 0 0 3px #dbdbdb;
-	cursor: auto;
-}
-
-.pagination .pager-current:hover {
-	background: #ffffff;
 }
 
 .pagination .next {
