@@ -17,15 +17,3 @@ var popupOverlay = document.querySelector(".popup-overlay");
 		modalContactBlock.classList.remove("modal-contact-block-open");
 		popupOverlay.classList.remove("popup-overlay-open");
 	});
-	
-	map.addEventListener("click", function(event) {
-		event.preventDefault();
-		modalMap.classList.add("modal-map-open");
-		popupOverlay.classList.add("popup-overlay-open");
-	});
-	
-	closeModalMap.addEventListener("click", function(event) {
-		event.preventDefault();
-		modalMap.classList.remove("modal-map-open");
-		popupOverlay.classList.remove("popup-overlay-open");
-	});
