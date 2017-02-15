@@ -974,6 +974,11 @@ sup {
 	background: #b8b8b8;
 }
 
+.grid label:hover,
+.features label:hover  {
+	color: #000000;
+}
+
 .grid label:hover::before {
 	box-shadow: 0 0 0 4px #4d4d4d;
 }
@@ -1022,6 +1027,22 @@ sup {
 
 .features input:checked + label:hover::after {
 	background: url("../img/checkbox-hover.png") no-repeat -60% 40%;
+}
+
+.grid input:disabled + label,
+.features input:disabled + label  {
+
+	color: #bec1c2;
+}
+
+.grid input:disabled + label::before  {
+	box-shadow: 0 0 0 4px #bec1c2;
+	cursor: auto;
+}
+
+.features input:disabled + label::before  {
+	border-color: #bec1c2;
+	cursor: auto;
 }
 
 .main-catalog {
