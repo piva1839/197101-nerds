@@ -1173,6 +1173,8 @@ sup {
 	bottom: 0;
 	box-sizing: border-box;
 	
+	display: none;
+	
 	width: 360px;
 	min-height: 230px;
 	padding: 26px 65px 43px 65px;
@@ -1180,15 +1182,13 @@ sup {
 	background: #eeeeee;
 	
 	text-align: center;
-	
-/*	opacity: 0; */
 }
 
-/* временно поиграться
-.items-catalog .about-item:hover {
-	opacity: 1;
+.item:hover .about-item {
+	display: block;
+	
+	cursor: auto;
 }
-*/
 
 .about-item h4 {
 	margin: 0;
