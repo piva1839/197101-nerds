@@ -6,29 +6,6 @@ html {
 	box-sizing: content-box;
 }
 
-.clearfix::after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-.container {
-	width: 1160px;
-	margin: 0 auto;
-	padding: 0 10px;
-}
-
-.btn {
-	border: none;
-	outline: none;
-	cursor: pointer;
-}
-
-input {
-	outline: none;
-	cursor: pointer;
-}
-
 body {
 	min-width: 1180px;
 	
@@ -37,6 +14,18 @@ body {
 	line-height: 24px;
 	color: #444444;
 	font-weight: 400;
+}
+
+.container {
+	width: 1160px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
 }
 
 h1 {
@@ -66,6 +55,41 @@ h3 {
 	color: #000000;
 	font-weight: 600;
 	text-transform: uppercase;
+}
+
+.btn {
+	display: inline-block;
+	
+	padding: 16px 60px;
+	
+	background: #fb565a;
+	border: none;
+	border-radius: 3px;
+	outline: none;
+	cursor: pointer;
+	
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffffff;
+	font-weight: 500;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.btn:hover {
+	background: #e74246;
+}
+
+.btn:active {
+	background: #d7373b;
+	box-shadow: inset 0 3px 0 0 #c13135;
+	
+	color: #e37376;
+}
+
+input {
+	outline: none;
+	cursor: pointer;
 }
 
 .main-header {
@@ -118,13 +142,13 @@ h3 {
 
 .main-menu li {
 	position: relative;
+	
 	display: inline-block;
 	vertical-align: top;
 
-	padding: 25px 0 8px;
 	margin-left: 42px;
+	padding: 25px 0 8px;
 	
-	font-family: "Roboto", "Arial", sans-serif;
 	font-size: 16px;
 	line-height: 30px;
 	font-weight: 500;
@@ -147,7 +171,6 @@ h3 {
 
 .main-menu .basket::before {
 	content: "";
-	
 	position: absolute;
 	left: 0;
 	top: 2px;
@@ -164,7 +187,6 @@ h3 {
 
 .main-menu .active:after {
 	content: "";
-	
 	position: absolute;	
 	bottom: 4px;
 	left: 0;
@@ -198,26 +220,23 @@ h3 {
 	bottom: 96px;
 	z-index: 1000;
 
-	margin-left: -44px;
 	width: 96px;
 	height: 18px;
-	
-
+	margin-left: -44px;
 }
 
 .index-slider-content label {
 	display: inline-block;
+	vertical-align: top;
+	
 	width: 18px;
 	height: 18px;
-	
 	margin: 0;
 	margin-right: 14px;
 	padding: 0;
-	vertical-align: top;
 	
 	background: #ffffff;
 	border-radius: 50%;
-	
 	cursor: pointer;
 }
 
@@ -234,7 +253,6 @@ h3 {
 	height: 100%;
 	
 	background: #eeeeee;
-	
 	overflow: hidden;
 }
 
@@ -280,7 +298,6 @@ h3 {
 	
 	padding: 63px 0 11px;
 	
-	font-family: "Roboto", "Arial", sans-serif;
 	font-size: 55px;
 	line-height: 55px;
 	font-weight: 500;
@@ -298,37 +315,10 @@ h3 {
 	padding-right: 150px;
 }
 
-.btn {
-	display: inline-block;
-	
-	padding: 16px 60px;
-	
-	background: #fb565a;
-	border-radius: 3px;
-	
-	font-family: "Roboto", "Arial", sans-serif;
-	font-size: 16px;
-	line-height: 18px;
-	color: #ffffff;
-	font-weight: 500;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-
-.btn:hover {
-	background: #e74246;
-}
-
-.btn:active {
-	background: #d7373b;
-	box-shadow: inset 0 3px 0 0 #c13135;
-	
-	color: #e37376;
-}
-
 .advantage-list {
-	border-bottom: 3px solid #eeeeee;
 	padding-bottom: 80px;
+	
+	border-bottom: 3px solid #eeeeee;
 }
 
 .advantages .advantage {
@@ -356,7 +346,6 @@ h3 {
 .advantages .result{
 	margin-bottom: 15px;
 	
-	font-family: "Roboto", "Arial", sans-serif;
 	font-size: 16px;
 	line-height: 24px;
 }
@@ -369,7 +358,6 @@ h3 {
 	
 	border-radius: 3px;
 	
-	font-family: "Roboto", "Arial", sans-serif;
 	font-size: 16px;
 	line-height: 18px;
 	color: #ffffff;
@@ -437,7 +425,6 @@ h3 {
 	margin: 0;
 	padding: 0;
 	
-	font-family: "Roboto", "Arial", sans-serif;
 	font-size: 45px;
 	line-height: 45px;
 	font-weight: 500;
@@ -495,11 +482,10 @@ h3 {
 }
 
 .statitics-title {
-	padding: 0;
 	margin: 0;
+	padding: 0;
 	padding: 36px 0 31px 6px;
-	
-	font-family: "Roboto", "Arial", sans-serif;
+
 	font-size: 16px;
 	line-height: 24px;
 	font-weight: 600;
@@ -518,9 +504,8 @@ h3 {
 .statistics-area li {
 	display: inline-block;
 	
-	margin-right: 10px;
-	
 	width: 105px;
+	margin-right: 10px;
 }
 
 .statistics-area li:last-child {
@@ -535,11 +520,10 @@ h3 {
 }
 
 .index-descr {
+	margin: 0;
 	padding: 0;
 	padding: 9px 0 0 0;
-	margin: 0;
 	
-	font-family: "Roboto", "Arial", sans-serif;
 	font-size: 16px;
 	line-height: 18px;
 }
@@ -547,7 +531,9 @@ h3 {
 sup {
 	position: relative;
 	top: 10px;
+	
 	vertical-align: top;
+	
 	font-size: 27px;
 	line-height: 1;
 }
@@ -558,6 +544,7 @@ sup {
 
 .partner-list {
 	box-sizing: border-box;
+	
 	height: 186px;
 	margin: 0;
 	padding: 0;
@@ -583,9 +570,9 @@ sup {
 	right: 0;
 	bottom: 50%; 
 
-	margin-bottom: -17px;
 	width: 2px; 
 	height: 52px; 
+	margin-bottom: -17px;
 
 	background: #eeeeee; 
 }
@@ -639,9 +626,9 @@ sup {
 	position: absolute;
 	bottom: 50%;
 	
-	margin-bottom: -154px;
 	width: 320px;
 	min-height: 308px;
+	margin-bottom: -154px;
 }	
 
 .address-wrapper .contacts {
@@ -656,7 +643,6 @@ sup {
 	margin: 0;
 	padding: 0;
 	
-	font-family: "Roboto", "Arial", sans-serif;
 	font-size: 18px;
 	line-height: 30px;
 	font-weight: 600;
@@ -681,15 +667,14 @@ sup {
 }
 
 .btn-adress {
+	display: inline-block;
+	
 	margin-top: 34px;
 	padding: 16px 44px;
-	
-	display: inline-block;
 	
 	background: #fb565a;
 	border-radius: 3px;
 	
-	font-family: "Roboto", "Arial", sans-serif;
 	font-size: 16px;
 	line-height: 18px;
 	color: #ffffff;
@@ -715,11 +700,10 @@ sup {
 }
 
 .social-description .invitation {
-	padding: 0;
 	margin: 0;
 	margin-top: 3px;
+	padding: 0;
 	
-	font-family: "Roboto", "Arial", sans-serif;
 	font-size: 36px;
 	line-height: 36px;
 	font-weight: 400;
@@ -731,7 +715,6 @@ sup {
 	
 	margin-top: 10px;
 	
-	font-family: "Roboto", "Arial", sans-serif;
 	font-size: 16px;
 	line-height: 22px;
 	font-weight: 400;
@@ -782,7 +765,6 @@ sup {
 
 .social:active {
 	background: #d7373b;
-	
 	box-shadow: inset 0 3px 0 0 #c13135;
 }
 
@@ -822,10 +804,9 @@ sup {
 
 .filter-btn:active {
 	background: #d5d5d5;
+	box-shadow: inset 0 3px 0 0 #bfbfbf;
 	
 	color: #959595;
-	
-	box-shadow: inset 0 3px 0 0 #bfbfbf;
 }
 
 .catalog-filter {
@@ -900,6 +881,7 @@ sup {
 .min-toggle {
 	position: absolute;
 	top: 50%;
+	
 	margin-top: -10px;
 	margin-left: -2px;
 }
@@ -907,6 +889,7 @@ sup {
 .max-toggle {
 	position: absolute;
 	top: 50%;
+	
 	margin-top: -10px;
 	margin-left: 140px;
 }
@@ -969,8 +952,8 @@ sup {
 .catalog-filter label {
 	position: relative;
 
-	padding-left: 36px;
 	margin-bottom: 16px;
+	padding-left: 36px;
 }
 
 .grid label::before {
@@ -1050,7 +1033,6 @@ sup {
 
 .grid input:disabled + label,
 .features input:disabled + label  {
-
 	color: #bec1c2;
 }
 
@@ -1080,7 +1062,6 @@ sup {
 	
 	margin-right: 265px;
 	
-	font-family: "Roboto", "Arial", sans-serif;
 	font-size: 18px;
 	line-height: 18px;
 	font-weight: 600;
@@ -1089,6 +1070,7 @@ sup {
 
 .sort-by {
 	float: left;
+	
 	display: inline-block;
 	
 	margin: 0;
@@ -1103,7 +1085,6 @@ sup {
 }
 
 .sort-by a {
-	font-family: "Roboto", "Arial", sans-serif;
 	font-size: 14px;
 	line-height: 18px;
 	font-weight: 500;
@@ -1138,10 +1119,10 @@ sup {
 	display: inline-block;
 	vertical-align: middle;
 	
-	margin: 0;
-	padding: 0;
 	width: 0;
 	height: 0;
+	margin: 0;
+	padding: 0;
 	
 	border-left: 5px solid transparent;
 	border-right: 5px solid transparent;
@@ -1236,7 +1217,6 @@ sup {
 }
 
 .about-item .items-title {
-	font-family: "Roboto", "Arial", sans-serif;
 	font-size: 18px;
 	line-height: 30px;
 	text-decoration: none;
@@ -1249,7 +1229,6 @@ sup {
 	padding: 0;
 	padding: 15px 0 30px;	
 	
-	font-family: "Roboto", "Arial", sans-serif;
 	font-size: 16px;
 	line-height: 18px;
 	font-weight: 400;
@@ -1299,7 +1278,6 @@ sup {
 }
 
 .pagination a {
-	font-family: "Roboto", "Arial", sans-serif;
 	font-size: 16px;
 	line-height: 18px;
 	color: #000000;
@@ -1366,7 +1344,6 @@ sup {
 .modal-contact-block .contact-form-title {
 	margin-bottom: 35px;
 	
-	font-family: "Roboto", "Arial", sans-serif;
 	font-size: 45px;
 	line-height: 45px;
 	color: #000000;
@@ -1394,7 +1371,6 @@ sup {
 	
 	margin-bottom: 9px;
 	
-	font-family: "Roboto", "Arial", sans-serif;
 	font-size: 16px;
 	line-height: 18px;
 	color: #000000;
@@ -1505,7 +1481,6 @@ sup {
 	border: 2px solid #d7dcde;
 	border-radius: 3px;
 	outline: none;
-	
 	cursor: pointer;
 }
 
