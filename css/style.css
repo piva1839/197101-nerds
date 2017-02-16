@@ -1099,7 +1099,7 @@ sup {
 	float: left;
 	
 	display: inline-block;
-	
+	width: 282px;
 	margin: 0;
 	padding: 0;
 }
@@ -1107,8 +1107,12 @@ sup {
 .sort-by li {
 	display: inline-block;
 	vertical-align: top;
-	
+	width: 61px;
 	margin-right: 25px;
+}
+
+.sort-by li:last-child {
+	width: 102px;
 }
 
 .sort-by a {
@@ -1252,9 +1256,15 @@ sup {
 }
 
 .about-item .items-description {
+	display: block;
+	
+	max-height: 382px;
 	margin: 0;
-	padding: 0;
-	padding: 15px 0 30px;	
+	margin-top: 15px;
+	margin-bottom: 30px;
+	padding: 0;		
+	
+	overflow-y: auto;
 	
 	font-size: 16px;
 	line-height: 18px;
@@ -1272,11 +1282,11 @@ sup {
 	display: inline-block;
 	vertical-align: top;
 	
-	min-width: 50px;
+	min-width: 30px;
 	margin: 0;
 	margin-right: 7px;
 	padding: 0;
-	padding: 13px 0;
+	padding: 13px 10px;
 	
 	background: #eeeeee;
 	border-radius: 3px;
