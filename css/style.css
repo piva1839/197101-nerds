@@ -117,6 +117,8 @@ input {
 
 .main-menu {
 	float: right;
+	
+	margin-left: 190px;
 }
 
 .main-menu a {
@@ -133,11 +135,16 @@ input {
 }
 
 .main-menu .navigation {
-	list-style: none;
+	float: left;
 	
+	width: 460px;
 	margin-top: 0;
 	margin-bottom: 0;
+	margin-right: 234px;
 	padding-left: 0;
+	
+	text-align: center;
+	list-style: none;
 }
 
 .main-menu li {
@@ -146,7 +153,7 @@ input {
 	display: inline-block;
 	vertical-align: top;
 
-	margin-left: 42px;
+	margin-right: 42px;
 	padding: 25px 0 8px;
 	
 	font-size: 16px;
@@ -155,18 +162,35 @@ input {
 	text-transform: uppercase;
 }
 
+.main-menu li:nth-child(4n) {
+	margin-right: 0;
+}
+
+.main-menu li:last-child {
+	margin-right: 0;
+}
+
 .main-menu li:first-child {
 	margin-left: 0;
 }
 
 .main-menu .baskets-block {
-	margin-left: 240px;
+	float: right;
+	position: relative;
+	top: 25px;
+	
+	width: 115px;
 }
 
 .main-menu .basket {
 	position: relative;
 	
 	padding-left: 40px;
+	
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 500;
+	text-transform: uppercase;
 }
 
 .main-menu .basket::before {
