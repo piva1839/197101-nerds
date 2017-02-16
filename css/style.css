@@ -525,6 +525,7 @@ input {
 
 .statistics-area li {
 	display: inline-block;
+	vertical-align: top;
 	
 	width: 105px;
 	margin-right: 10px;
@@ -567,7 +568,7 @@ sup {
 .partner-list {
 	box-sizing: border-box;
 	
-	height: 186px;
+	min-height: 186px;
 	margin: 0;
 	padding: 0;
 	padding-top: 46px;
@@ -576,6 +577,7 @@ sup {
 	border-bottom: 3px solid #eeeeee;
 	
 	font-size: 0;
+	/* text-align: center; для красивого выстраивания при переполнении */
 }
 
 .partner {
@@ -583,6 +585,8 @@ sup {
 	
 	display: inline-block;
 	vertical-align: middle;
+	
+	/* width: 290px; для красивого выстраивания при переполнении */
 }
 
 .partner::after { 
@@ -617,22 +621,22 @@ sup {
 
 .htmlacademy {
 	width: 199px;
-	margin: 7px 51px 0 31px;
+	margin: 7px 51px 0 31px; /* удалить если надо красиво выстроить при переполнении */
 }
 
 .borodinski {
 	width: 209px;
-	margin: 0 46px 0 45px;
+	margin: 0 46px 0 45px; /* удалить если надо красиво выстроить при переполнении */
 }
 
 .pink {
 	width: 185px;
-	margin: 0 58px 0 57px;
+	margin: 0 58px 0 57px; /* удалить если надо красиво выстроить при переполнении */
 }
 
 .mishka {
 	width: 173px;
-	margin: 4px 40px 0 63px;
+	margin: 4px 40px 0 63px; /* удалить если надо красиво выстроить при переполнении */
 }
 
 .map {
