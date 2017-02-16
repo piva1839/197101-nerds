@@ -266,7 +266,7 @@ input {
 
 .index-slider-content label:last-child {
 	margin-right: 0px;
-}  
+}
 
 .index-slide {
 	position: absolute;
@@ -277,7 +277,6 @@ input {
 	height: 100%;
 	
 	background: #eeeeee;
-	overflow: hidden;
 }
 
 .index-slide:nth-child(1) {
@@ -340,8 +339,6 @@ input {
 }
 
 .advantage-list {
-	padding-bottom: 80px;
-	
 	border-bottom: 3px solid #eeeeee;
 }
 
@@ -350,9 +347,10 @@ input {
 	
 	width: 300px;
 	margin-right: 100px;
+	margin-bottom: 80px;
 }
 
-.advantages .advantage:last-child {
+.advantages .advantage:nth-child(3n) {
 	margin-right: 0;
 }
 
