@@ -271,15 +271,15 @@ input {
 }
 
 .index-slide:nth-child(1) {
-	background: url("../img/slide1.png") no-repeat 93.3% 100%;
+	background: url("../img/slide1.png") no-repeat 93.3% 4px;
 }
 
 .index-slide:nth-child(2) {
-	background: url("../img/slide2.png") no-repeat 100% 100%;
+	background: url("../img/slide2.png") no-repeat 100% 4px;
 }
 
 .index-slide:nth-child(3) {
-	background: url("../img/slide3.png") no-repeat 100% 100%;
+	background: url("../img/slide3.png") no-repeat 100% 4px;
 }
 
 #slider-1-1:checked ~ .index-slides .index-slide:nth-child(1) {
