@@ -59,7 +59,6 @@ h3 {
 
 .btn {
 	display: inline-block;
-	
 	padding: 16px 55px;
 	
 	background: #fb565a;
@@ -101,7 +100,6 @@ input {
 
 .nav-logo {
 	float: left;
-	
 	width: 161px;
 	height: 65px;
 	
@@ -118,7 +116,6 @@ input {
 
 .main-menu {
 	float: right;
-	
 	margin-left: 190px;
 }
 
@@ -137,7 +134,6 @@ input {
 
 .main-menu .navigation {
 	float: left;
-	
 	width: 460px;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -153,7 +149,6 @@ input {
 	
 	display: inline-block;
 	vertical-align: top;
-
 	margin-right: 42px;
 	padding: 25px 0 8px;
 	
@@ -176,10 +171,10 @@ input {
 }
 
 .main-menu .baskets-block {
-	float: right;
 	position: relative;
 	top: 25px;
 	
+	float: right;
 	width: 115px;
 }
 
@@ -253,7 +248,6 @@ input {
 .index-slider-content label {
 	display: inline-block;
 	vertical-align: top;
-	
 	width: 18px;
 	height: 18px;
 	margin: 0;
@@ -312,7 +306,6 @@ input {
 
 .index-slider-slogan {
 	display: block;
-	
 	padding: 63px 0 11px;
 	
 	font-size: 55px;
@@ -338,7 +331,6 @@ input {
 
 .advantages .advantage {
 	float: left;
-	
 	width: 300px;
 	margin-right: 100px;
 	margin-bottom: 80px;
@@ -368,7 +360,6 @@ input {
 
 .advantage-btn {
 	display: inline-block;
-	
 	margin-top: 17px;
 	padding: 17px 40px;
 	
@@ -432,7 +423,6 @@ input {
 
 .about-studio {
 	float: left;
-	
 	width: 655px;
 	margin-top: 35px;
 }
@@ -459,10 +449,10 @@ input {
 }
 
 .about-studio .development-item {
-	list-style: none;
-	
 	margin: 0;
 	padding: 0;
+	
+	list-style: none;
 }
 
 .about-studio li {
@@ -486,14 +476,12 @@ input {
 
 .nerds-statistic {
 	float: right;
-	
 	width: 365px;
 }
 
 .about-us-logo {
 	width: 360px;
 	height: 208px;
-	
 	margin-left: 4px;
 }
 
@@ -561,7 +549,6 @@ sup {
 
 .partner-list {
 	box-sizing: border-box;
-	
 	min-height: 186px;
 	margin: 0;
 	padding: 0;
@@ -585,7 +572,6 @@ sup {
 
 .partner::after { 
 	content: ""; 
-
 	position: absolute;  
 	right: 0;
 	bottom: 50%; 
@@ -670,7 +656,6 @@ sup {
 
 .contacts-adress {
 	display: block;
-	
 	margin: 0;
 	margin: 23px 0 15px;
 	padding: 0;
@@ -681,14 +666,12 @@ sup {
 
 .contacts-phone {
 	display: block;
-	
 	margin: 0;
 	padding: 0;
 }
 
 .btn-adress {
 	display: inline-block;
-	
 	margin-top: 34px;
 	padding: 16px 44px;
 	
@@ -709,13 +692,11 @@ sup {
 
 .main-footer .socials-icons {
 	float: left;
-	
 	width: 270px;
 }
 
 .main-footer .social-description {
 	float: right;
-	
 	width: 760px;
 }
 
@@ -732,7 +713,6 @@ sup {
 
 .social-description .friends {
 	display: block;
-	
 	margin-top: 10px;
 	
 	font-size: 16px;
@@ -746,7 +726,6 @@ sup {
 	
 	display: inline-block;
 	vertical-align: top;
-	
 	width: 80px;
 	height: 80px;
 	margin-right: 7px;
@@ -809,7 +788,6 @@ sup {
 
 .filter-btn {
 	display: block;
-	
 	margin-top: 32px;
 	
 	background: #eeeeee;
@@ -831,7 +809,6 @@ sup {
 
 .catalog-filter {
 	float: left;
-	
 	width: 260px;
 	margin-right: 140px;
 }
@@ -964,7 +941,6 @@ sup {
 .features label {
 	display: inline-block;
 	vertical-align: top;
-	
 	margin: 0;
 	padding: 0;
 }
@@ -1031,7 +1007,6 @@ sup {
 	top: 1px;
 	
 	display: none;
-	
 	width: 23px;
 	height: 19px;
 
@@ -1068,7 +1043,6 @@ sup {
 
 .main-catalog {
 	float: right;
-	
 	width: 760px;
 }
 
@@ -1079,7 +1053,6 @@ sup {
 
 .sorting-name {
 	float: left;
-	
 	margin-right: 265px;
 	
 	font-size: 18px;
@@ -1090,7 +1063,6 @@ sup {
 
 .sort-by {
 	float: left;
-	
 	display: inline-block;
 	width: 320px;
 	margin: 0;
@@ -1137,7 +1109,6 @@ sup {
 .sort-up {
 	display: inline-block;
 	vertical-align: middle;
-	
 	width: 0;
 	height: 0;
 	margin: 0;
@@ -1214,7 +1185,6 @@ sup {
 	box-sizing: border-box;
 	
 	display: none;
-	
 	width: 360px;
 	min-height: 230px;
 	padding: 26px 65px 43px 65px;
@@ -1245,7 +1215,6 @@ sup {
 
 .about-item .items-description {
 	display: block;
-	
 	max-height: 382px;
 	margin: 0;
 	margin-top: 15px;
@@ -1269,7 +1238,6 @@ sup {
 .pagination li {
 	display: inline-block;
 	vertical-align: top;
-	
 	min-width: 30px;
 	margin: 0;
 	margin-right: 7px;
@@ -1318,7 +1286,6 @@ sup {
 	z-index: 9;
 	
 	display: none;
-	
 	width: 100%;
 	height: 100%;
 	
@@ -1338,7 +1305,6 @@ sup {
 	left: 50%;
 	
 	display: none;
-	
 	width: 960px;
 	height: 590px;
 	margin-left: -480px;
@@ -1381,19 +1347,16 @@ sup {
 
 .modal-contact-block .user-contact-name {
 	float: left;
-	
 	width: 360px;
 }
 
 .modal-contact-block .user-contact-email {
 	float: right;
-	
 	width: 360px;
 }
 
 .modal-contact-block label {
 	display: block;
-	
 	margin-bottom: 9px;
 	
 	font-size: 16px;
@@ -1403,9 +1366,8 @@ sup {
 }
 
 .modal-contact-block input {
-	padding: 15px;
-	
 	width: 326px;
+	padding: 15px;
 	
 	font-family: "Roboto", "Arial", sans-serif;
 	font-size: 16px;
@@ -1452,11 +1414,10 @@ sup {
 	
 	background: none;
 	border: 0;
-	
-	font-size: 0;
-	
 	outline: 0;
 	cursor: pointer;
+	
+	font-size: 0;
 }
 
 .close-modal-block::before,
@@ -1497,16 +1458,16 @@ sup {
 	max-height: 88px;
 	padding: 15px;
 	
+	border: 2px solid #d7dcde;
+	border-radius: 3px;
+	outline: none;
+	cursor: pointer;
+	
 	font-family: "Roboto", "Arial", sans-serif;
 	font-size: 16px;
 	line-height: 18px;
 	color: #444444;
 	font-weight: 400;
-	
-	border: 2px solid #d7dcde;
-	border-radius: 3px;
-	outline: none;
-	cursor: pointer;
 }
 
 .modal-contact-block .message-area:hover {
