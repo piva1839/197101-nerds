@@ -1126,7 +1126,9 @@ sup {
 
 	border-bottom: 11px solid #000000;
 	
-	transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .sort-down:hover,
@@ -1229,6 +1231,10 @@ sup {
 	color: #666666;
 }
 
+.about-item .btn:active {
+	color: #ffffff
+}
+
 .pagination {
 	margin: 0;
 	padding: 0;
@@ -1319,25 +1325,38 @@ sup {
 
 @keyframes appearance {
 	0% {
-		transform: rotate(3deg); 
+		-webkit-transform: rotate(3deg);
+		-ms-transform: rotate(3deg);
+		transform: rotate(3deg);		
 	}
 	
-	20% {
-		transform: rotate(-3deg); 
+	20% {	
+		-webkit-transform: rotate(-3deg);
+		-ms-transform: rotate(-3deg);
+		transform: rotate(-3deg);	
 	}
 	
 	40% {
-		transform: rotate(2deg); 
+		-webkit-transform: rotate(2deg);
+		-ms-transform: rotate(2deg);
+		transform: rotate(2deg);			
 	}
 	
 	60% {
+		-webkit-transform: rotate(-2deg);
+		-ms-transform: rotate(-2deg);
 		transform: rotate(-2deg); 
 	}
 	
 	80% {
-		transform: rotate(1deg); 
+		-webkit-transform: rotate(1deg);
+		-ms-transform: rotate(1deg);
+		transform: rotate(1deg);
+		
 	}
 	100% {
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
 		transform: rotate(0); 
 	}
 }
@@ -1460,14 +1479,20 @@ sup {
 	
 	background: #fecccd;
 	
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
 
 .close-modal-block::before {
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
 	transform: rotate(45deg);
 }
 
 .close-modal-block::after {
+	-webkit-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
 	transform: rotate(-45deg);
 }
 
