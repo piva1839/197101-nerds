@@ -722,8 +722,6 @@ sup {
 }
 
 .social {
-	position:relative;
-	
 	display: inline-block;
 	vertical-align: top;
 	width: 80px;
@@ -732,45 +730,52 @@ sup {
 	
 	background: #e1e1e1;
 	border-radius: 50%;
+	cursor: pointer;
 	
-	text-align: center;
+	font-size: 0px;
 }
 
 .social:last-child {
 	margin-right: 0;
 }
 
-.vk {
-	position: absolute;
-	left: 27px;
-	top: 32.5px;
+.vk-s {
+	background: #e1e1e1 url("../img/socials.png") no-repeat 27px 29px;
 }
 
-.fb {
-	position: absolute;
-	left: 34px;
-	top: 29px;
+.fb-s {
+	background: #e1e1e1 url("../img/socials.png") no-repeat -63px 29px
 }
 
-.instagram {
-	position: absolute;
-	left: 29.5px;
-	top: 29.5px;
+.in-s {
+	background: #e1e1e1 url("../img/socials.png") no-repeat -153px 29px;
 }
 
-.social:hover {
-	background: #e74246;
+.vk-s:hover {
+	background: #e74246 url("../img/socials.png") no-repeat 27px 29px;
 }
 
-.social:active {
-	background: #d7373b;
+.fb-s:hover {
+	background: #e74246 url("../img/socials.png") no-repeat -63px 29px
+}
+
+.in-s:hover {
+	background: #e74246 url("../img/socials.png") no-repeat -153px 29px;
+}
+
+.vk-s:active {
+	background: #d7373b url("../img/socials.png") no-repeat 27px -74px;
 	box-shadow: inset 0 3px 0 0 #c13135;
 }
 
-.vk:active,
-.fb:active,
-.instagram:active {
-	opacity: 0.3;
+.fb-s:active {
+	background: #d7373b url("../img/socials.png") no-repeat -63px -74px;
+	box-shadow: inset 0 3px 0 0 #c13135;
+}
+
+.in-s:active {
+	background: #d7373b url("../img/socials.png") no-repeat -153px -74px;
+	box-shadow: inset 0 3px 0 0 #c13135;
 }
 
 .catalog-filter {
@@ -1010,7 +1015,7 @@ sup {
 	width: 23px;
 	height: 19px;
 
-	background: url("../img/checkbox.png") no-repeat -60% 40%;
+	background: url("../img/checkbox.png") no-repeat -50px 0;
 	cursor: pointer;
 }
 
@@ -1023,7 +1028,7 @@ sup {
 }
 
 .features input:checked + label:hover::after {
-	background: url("../img/checkbox-hover.png") no-repeat -60% 40%;
+	background: url("../img/checkbox.png") no-repeat 0 0;
 }
 
 .grid input:disabled + label,
@@ -1273,7 +1278,7 @@ sup {
 
 .pagination .next {
 	width: auto;
-	padding: 19px 78px;
+	padding: 19px 69px;
 }
 
 .pagination a {
